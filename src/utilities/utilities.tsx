@@ -1,0 +1,16 @@
+export const arrayToJson = (array: Array<object>): string => {
+    try {
+        return JSON.stringify(array, null, 2);
+    } catch (error) {
+        console.error('Errore nella trasformazione dell\'array in JSON:', error);
+        return '';
+    }
+};
+
+export const loremIpsum = (): string => {
+    return `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum nisi vel suscipit laoreet. Donec eu aliquet mauris. Duis quis condimentum arcu, quis auctor ligula. In vel velit non felis malesuada fermentum at ut nibh. Phasellus eu ex justo. Duis sit amet elit dui. Nullam quam sapien, viverra id tincidunt in, pellentesque vitae magna. Aliquam porta pharetra ex, at sagittis dolor efficitur at. Sed id feugiat odio. Nullam a nulla arcu. Nulla faucibus sem ut sem ornare, ac sagittis lorem consequat. Duis nec risus elit.
+            Quisque pharetra viverra velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus vitae venenatis risus, eu pellentesque neque. Maecenas ac libero sed nulla semper accumsan. In dignissim velit quis nisi luctus faucibus. Vestibulum porttitor ligula felis, et viverra orci elementum vel. Aenean lobortis quam id enim egestas mattis. Pellentesque ante ligula, aliquam vel aliquam ut, luctus et risus. Ut porttitor tellus sapien, in sollicitudin nisl malesuada ac. Nunc eget lacus convallis, tristique arcu sodales, finibus purus.
+            Vivamus venenatis diam eget lectus consectetur, sit amet tempus massa tincidunt. Quisque tristique aliquam leo ac lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus sed mattis eros. Nullam maximus dignissim lacinia. Quisque malesuada leo quis finibus porta. Donec nec eros nec tortor ornare mollis a quis odio. Vestibulum eu elit nec lacus ornare posuere. Nulla facilisi.
+            Suspendisse rhoncus lobortis turpis, in fermentum enim porttitor quis. Quisque congue, libero et aliquam bibendum, nibh ex commodo sem, congue blandit purus augue sit amet ipsum. Curabitur venenatis erat sit amet velit ultrices, sed facilisis nisl dictum. Suspendisse at imperdiet felis, vel iaculis magna. Nulla blandit nisl lectus, ac elementum leo rutrum ut. Aenean at tincidunt ipsum. Donec eget iaculis velit, vel gravida enim. Aliquam sed dui bibendum, elementum ex eu, bibendum elit. Curabitur mattis vitae tellus vel lobortis. Suspendisse vulputate dignissim arcu, sed suscipit mauris maximus id. Morbi hendrerit eros nec maximus hendrerit. Aliquam dignissim est ligula, eu mattis nunc cursus nec.
+            Integer nisl dolor, porttitor malesuada tellus non, viverra dignissim eros. Integer ut sem eget elit auctor tristique. Maecenas tincidunt ut mauris at bibendum. Duis sollicitudin lorem felis, non ultrices tortor vestibulum ac. Nulla ut turpis tempor, fermentum eros eget, malesuada mi. Nullam convallis, quam vel interdum dapibus, augue lorem egestas erat, vel iaculis odio metus sed ipsum. Cras non mauris eu enim ornare ultrices sit amet quis erat. Phasellus condimentum rutrum dolor, quis pulvinar ante elementum egestas`
+}

@@ -1,0 +1,55 @@
+{
+  "automezzi": [
+    {
+      "codice": "A123",
+      "targa": "AB123CD",
+      "marca": "Fiat",
+      "modello": "Panda",
+      "id": "f3f6"
+    },
+    {
+      "codice": "A124",
+      "targa": "EF456GH",
+      "marca": "Ford",
+      "modello": "Focus",
+      "id": "0d1e"
+    },
+    {
+      "codice": "A125",
+      "targa": "EF456GH",
+      "marca": "Ford",
+      "modello": "Focus",
+      "id": "5e52"
+    },
+    {
+      "codice": "A126",
+      "targa": "EF456GH",
+      "marca": "Ford",
+      "modello": "Focus",
+      "id": "5063"
+    },
+    {
+      "id": "42bb",
+      "codice": "A127",
+      "targa": "AB6784Q",
+      "marca": "Porche",
+      "modello": "Kayen"
+    }
+  ],
+  "filiali": [
+    {
+      "codice": "F123",
+      "indirizzo": "Via Milano 3",
+      "città": "Roma",
+      "cap": "00100",
+      "id": "492b"
+    },
+    {
+      "codice": "F456",
+      "indirizzo": "Via Napoli 4",
+      "città": "Napoli",
+      "cap": "80100",
+      "id": "8d7b"
+    }
+  ]
+}
