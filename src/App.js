@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
-import { Provider } from 'react-redux'; // Import Provider
-import store from './store'; // Import the Redux store
+import { Provider } from 'react-redux';
+import store from './store';
 import './App.css';
 import Homepage from './pages/homepage';
 import Gestione from './pages/gestione';
@@ -12,7 +12,7 @@ import PrivateRoute from './components/privateRoute';
 function App() {
   //tutte le route salvo il login sono wrappate nel componente PrivateRoute che controlla l'autenticazione
   return (
-    <Provider store={store}> {/* Wrap the application in Provider */}
+    <Provider store={store}>
       <Router>
         <div className="App">
           <header className="App-header">
